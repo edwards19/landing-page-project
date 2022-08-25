@@ -96,7 +96,7 @@ a:hover {
   background-color: #3882F6;
   border: none;
   padding: 6px 32px;
-  border-radius: 8px;
+  border-radius: 6px;
   margin-top: 10px;
   cursor: pointer;
 }
@@ -166,4 +166,45 @@ cite {
   margin-top: 10px;
   margin-right: 12px;
   font-weight: bold;
+}
+
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3882F6;
+  padding: 40px 120px;
+  border-radius: 10px;
+  width: 1000px;
+  margin: 60px auto;
+  color: #E5E7EB;;
+}
+
+.signup-container h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.signup-container p {
+  margin: 0;
+  padding: 0;
+}
+
+.sign-up-button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #E5E7EB;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 6px 28px;
+  cursor: pointer;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.sign-up-button:hover {
+  color: #3882F6;;
+  background-color: #E5E7EB;;
 }
