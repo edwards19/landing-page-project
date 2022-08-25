@@ -141,4 +141,29 @@ a:hover {
   text-align: center;
 }
 
+.testimonial-wrapper {
+  background-color: #E5E7EB;
+}
 
+blockquote {
+  width: 1000px;
+  margin: 0 auto;
+  display: flow-root; 
+  padding: 60px;
+}
+
+blockquote p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+  margin: 0;
+}
+
+cite {
+  float: right;
+  font-size: 26px;
+  margin-top: 10px;
+  margin-right: 12px;
+  font-weight: bold;
+}
