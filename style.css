@@ -92,13 +92,20 @@ a:hover {
 
 .website-info button {
   font-size: 16px;
-  color: white;
+  font-weight: bold;
+  color: #E5E7EB;
   background-color: #3882F6;
   border: none;
   padding: 6px 32px;
   border-radius: 6px;
-  margin-top: 10px;
+  margin-top: 14px;
   cursor: pointer;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.website-info button:hover {
+  color: #3882F6;
+  background-color: #E5E7EB;;
 }
 
 .img-container {
@@ -207,4 +214,20 @@ cite {
 .sign-up-button:hover {
   color: #3882F6;;
   background-color: #E5E7EB;;
+}
+
+footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  padding: 24px;
+  text-align: center;
+}
+
+footer a {
+  font-size: 16px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #E5E7EB;
 }
